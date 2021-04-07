@@ -12,7 +12,7 @@ while (i < 10) {
   }, delay + 200);
   setTimeout(() => {
     // Need to escape the backslash since it's a special character.
-    process.stdout.write('\r\\ 🙊  '); 
+    process.stdout.write('\r\\ 🙊  ');
   }, delay + 300);
   delay += 400
   i++;
